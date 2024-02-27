@@ -14,7 +14,8 @@ export default function Login(){
 
 
     return(
-        <div className="bg-white w-[27%] h-[677px] absolute mt-[50px] ml-[55%] p-8 rounded-t-[15px]">
+        <div className="flex justify-center relative w-[100%]  sm:block">
+             <div className=" w-[90%] mt-[150px] h-fit rounded-[8px] sm:w-[27%] sm:h-[677px] bg-white sm:absolute sm:mt-[50px] sm:ml-[55%] p-8 sm:rounded-t-[15px]">
             <p>WELLCOME BACK</p>
             <h3 className="text-[25px]">Log In to your Account</h3>
             <div className="pt-[20px]">
@@ -53,5 +54,7 @@ export default function Login(){
                 
             </div>
         </div>
+        </div>
+       
     )
 }
